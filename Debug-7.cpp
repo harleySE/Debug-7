@@ -7,9 +7,11 @@ using namespace std;
 
 // This code is designed to approximate the square root of 2.
 // Remember that the square root of 2 is simply the number that square to 2.
-double square(int x){
-    cout << x*x;
-    return 0;
+//i got rid of int so it can become a decimal
+double square(double x){
+  // i got rid of cout because that was for debugging
+  //the return needed to x^2 so it could be used 
+    return x*x;
 }
 double lowApprox = 1;
 double highApprox = 2;
